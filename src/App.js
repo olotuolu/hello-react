@@ -1,6 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+function MagicButton() {
+  return(
+    <>
+      <h2>Presenting, the magic button</h2>
+      <button>Magic</button>
+    </>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -15,8 +24,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Oluwanifemi and MSU
+          Learn React with Oluwanifemi and MSU!
         </a>
+        <MagicButton />
       </header>
     </div>
   );
