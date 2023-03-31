@@ -4,7 +4,7 @@ import './App.css';
 function MagicButton() {
   return(
     <>
-      <h2>Presenting, the magic button</h2>
+      <h3>Presenting, the magic button</h3>
       <button>Magic</button>
     </>
   );
