@@ -10,6 +10,24 @@ function MagicButton() {
   );
 }
 
+function HappyButton() {
+  return(
+    <>
+      <h3>Presenting, the happy button</h3>
+      <button>Happy</button>
+    </>
+  );
+}
+
+function MoneyButton() {
+  return(
+    <>
+      <h3>Presenting, the money button</h3>
+      <button>Money</button>
+    </>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +45,8 @@ function App() {
           Learn React with Oluwanifemi and MSU!
         </a>
         <MagicButton />
+        <HappyButton />
+        <MoneyButton />
       </header>
     </div>
   );
